@@ -28,5 +28,5 @@ angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRoute
     templateUrl: "/contact.html",
     controller: "nSCtrl"
   })
-  
+  $urlRouterProvider.otherwise('/home')
 });
