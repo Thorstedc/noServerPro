@@ -1,31 +1,31 @@
 angular.module('myApp', ['ui.router']).config(function($stateProvider, $urlRouterProvider){
   $stateProvider.state('home', {
     url : "/home",
-    templateUrl: "/home.html",
+    templateUrl: "./home.html",
     controller: "nSCtrl"
   })
 
   $stateProvider.state('newYou', {
     url : "/newYou",
-    templateUrl: "/newYou.html",
+    templateUrl: "./newYou.html",
     controller: "nSCtrl"
   })
 
   $stateProvider.state('test', {
     url : "/putItToTest",
-    templateUrl: "/putItToTest.html",
+    templateUrl: "./putItToTest.html",
     controller: "nSCtrl"
   })
 
   $stateProvider.state('about', {
     url : "/about",
-    templateUrl: "/about.html",
+    templateUrl: "./about.html",
     controller: "nSCtrl"
   })
 
   $stateProvider.state('contact', {
     url : "/contact",
-    templateUrl: "/contact.html",
+    templateUrl: "./contact.html",
     controller: "nSCtrl"
   })
   $urlRouterProvider.otherwise('/home')
