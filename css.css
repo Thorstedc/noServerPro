@@ -1,0 +1,122 @@
+body {
+  background-image: url("https://s3.amazonaws.com/i.seelio.com/5d/09/5d093866c2abd667a674674361965e0ee061_l.jpg");
+  }
+
+h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 100px;
+  display: none;
+}
+nav {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+
+}
+
+.main {
+  opacity: 0.7;
+  background-color: red;
+  width: 400px;
+  font-size: 22px;
+  font-weight: bold;
+  overflow-x: auto;
+  margin: auto;
+  line-height: 1.5em;
+  font-family: cursive;
+}
+
+.newMain {
+  margin: auto;
+  width: 900px;
+  background-color: orange;
+  font-size: 50px;
+}
+
+.home {
+  font-size: 90px;
+  color: orange;
+  background-color: black;
+  width: 900px;
+  opacity: .8;
+  margin: auto;
+}
+
+.home1 {
+  background-image: url(http://kingdom1stfinancial.net/wp-content/uploads/2016/02/Self-Improvement.jpg);
+  color: green;
+  width: 900px;
+  font-size: 70px;
+  margin: auto;
+  height: 500px;
+  text-align: center;
+
+
+
+}
+
+.homeText {
+  margin: auto;
+  font-size: 50px;
+  background-color: green;
+  width: 900px;
+
+}
+
+
+.test1 {
+  margin: auto;
+  font-size: 40px;
+  background-color: orange;
+  width: 900px;
+  opacity: .8;
+
+}
+
+.travel {
+  background-color: green;
+  font-size: 60px;
+  width: 800px;
+  margin: auto;
+}
+
+.contact {
+  color: ;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  background-color: white;
+  width: 700px;
+}
+
+.contact1 {
+  background-color: grey;
+  width: 400px;
+  font-size: 22px;
+  font-weight: bold;
+  overflow-x: auto;
+  margin: auto;
+  line-height: 1.5em;
+  font-family: cursive;
+}
+
+.about {
+  margin: auto;
+  font-size: 60px;
+  background-color: orange;
+  width: 962px;
+  text-align: center;
+}
+.thanks {
+  display: none;
+  font-size: 50px;
+  background-color: yellow;
+}
+.submit {
+  display: block;
+}
+.contact{
+  display: none;
+}
